@@ -16,10 +16,15 @@ const Slider = ({ slides }) => {
 
   // Adding slider timeout
   useEffect(() => {
+    //smooth transition without duration between slides
+
     const timeout = setTimeout(() => {
-      setCurrent(current === length - 1 ? 0 : current + 1);
-    }, 3000);
-    return () => clearTimeout(timeout);
+      nextSlide();
+    }, 5000);
+
+    return () => {
+      clearTimeout(timeout);
+    };
   }, [current, length]);
 
   if (!Array.isArray(slides) || slides.length <= 0) {
