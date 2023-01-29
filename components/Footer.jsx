@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col">
           <p className="w-full text-center my-12 text-gray-600">
-            Copyright © 2022 TEDA. All rights reserved.
+            Copyright © 2023 TEDA. All rights reserved.
           </p>
         </div>
       </div>
