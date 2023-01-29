@@ -35,7 +35,7 @@ const Testimonials = () => {
         <div className="swiper-container !overflow-hidden">
           <div className="swiper-wrapper">
             <div className="swiper-slide ">
-              <blockquote className="bg-gray-100 p-8 h-[600px]">
+              <blockquote className="bg-gray-100 p-8 h-[650px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -65,7 +65,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[600px]">
+              <blockquote className="bg-gray-100 p-8 h-[650px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -95,7 +95,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[600px]">
+              <blockquote className="bg-gray-100 p-8 h-[650px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -125,7 +125,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[600px]">
+              <blockquote className="bg-gray-100 p-8 h-[650px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -156,7 +156,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[600px]">
+              <blockquote className="bg-gray-100 p-8 h-[650px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
