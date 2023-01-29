@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
+      <Hero heading={"Teda NGO"} message={"We are a non-profit organization that helps people in need."} />
     </>
   )
 }
