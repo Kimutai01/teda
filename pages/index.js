@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero'
+import Slider from '@/components/Slider'
 import Head from 'next/head'
 import Image from 'next/image'
+import { SliderData } from '@/components/SliderData'
 
 
 export default function Home() {
@@ -13,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading={"Teda NGO"} message={"We are a non-profit organization that helps people in need."} />
+      <Slider slides={SliderData} />
     </>
   )
 }
