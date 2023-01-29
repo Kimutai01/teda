@@ -1,21 +1,39 @@
 import Link from 'next/link'
-import Reac,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
+    const [color, setColor] = useState('transparent')
+    const [textColor, setTextColor] = useState('white')
 
     const toggleNav = () => {
         setNav(!nav)
     }
 
+   
+
+    useEffect(() => {
+        const changeBackground = () => {
+            if(window.scrollY >= 90) {
+                setColor('#ffffff')
+                setTextColor("#000")
+            } else {
+                setColor("transparent")
+                setTextColor("#ffffff")
+            }
+        }
+        window.addEventListener('scroll', changeBackground)
+    }, [])
+
+
   return (
-    <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
+    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300' >
         <div className='max-w-[1240] m-auto flex justify-between items-center p-4 text-white'>
             <Link href='/'>
-                <h1 className='font-bold text-4xl'>Teda NGO</h1>
+                <h1 className='font-bold text-4xl' style={{color: `${textColor}`}}>Teda NGO</h1>
             </Link>
-            <ul className='hidden sm:flex'>
+            <ul className='hidden sm:flex' style={{color: `${textColor}`}}>
                 <li className='p-4'>
                     <Link href='/'>Home</Link>
                 </li>
@@ -33,9 +51,9 @@ const Navbar = () => {
             {/* Mobile Button */}
             <div className='block sm:hidden z-10'>
                 {nav ? (
-                    <AiOutlineClose size={20} onClick={toggleNav} />
+                    <AiOutlineClose size={20} onClick={toggleNav}  style={{color: `${textColor}`}} />
                 ) : (
-                    <AiOutlineMenu size={20} onClick={toggleNav} />
+                    <AiOutlineMenu size={20} onClick={toggleNav}  style={{color: `${textColor}`}} />
                 )}
                 </div>
 
