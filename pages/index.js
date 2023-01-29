@@ -5,6 +5,7 @@ import Image from "next/image";
 import { SliderData } from "@/components/SliderData";
 import Instagram from "@/components/Instagram";
 import Values from "@/components/Values";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <Slider slides={SliderData} />
       <Values />
+      <Footer />
     </>
   );
 }
