@@ -1,5 +1,6 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import React from "react";
+import Testimonials from "@/components/Testimonials";
 
 const about = () => {
   return (
@@ -27,6 +28,8 @@ const about = () => {
           </p>
         </div>
       </div>
+      <Testimonials />
+      <Footer />
     </div>
   );
 };
