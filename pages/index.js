@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { SliderData } from "@/components/SliderData";
 import Instagram from "@/components/Instagram";
+import Values from "@/components/Values";
 
 export default function Home() {
   return (
@@ -14,12 +15,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero
-        heading={"Teda NGO"}
-        message={"We are a non-profit organization that helps people in need."}
-      />
       <Slider slides={SliderData} />
-      <Instagram />
+      <Values />
     </>
   );
 }
