@@ -23,14 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col">
           <p className="w-full text-center my-12 text-gray-600">
-            Copyright © 2023 TEDA. All rights reserved. Designed & Developed by{" "}
-            {""}
-            <Link
-              href="https://www.linkedin.com/in/kimutai01/"
-              className="text-red-500"
-            >
-              Kiprotich Kimutai
-            </Link>
+            Copyright © 2023 TEDA. All rights reserved.
           </p>
         </div>
       </div>
