@@ -6,7 +6,7 @@ import React from "react";
 const contact = () => {
   return (
     <div>
-      <Hero heading="Contact" />
+      <Hero heading="Contact" image="contact-img" />
       <Contact />
       <Footer />
     </div>

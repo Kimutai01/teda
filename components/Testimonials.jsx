@@ -35,19 +35,19 @@ const Testimonials = () => {
         <div className="swiper-container !overflow-hidden">
           <div className="swiper-wrapper">
             <div className="swiper-slide ">
-              <blockquote className="bg-gray-100 p-8 h-[670px]">
+              <blockquote className="bg-gray-100 p-8 h-[800px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
                     className="h-16 w-16 rounded-full object-cover"
                   />
                   <div className="ml-4 text-sm">
-                    <p className="font-medium">Good governance</p>
-                    <p className="mt-1">Good governance to all</p>
+                    <p className="font-bold text-xl">Good governance</p>
+                    <p className="mt-1 text-xl">Good governance to all</p>
                   </div>
                 </div>
 
-                <p className="relative mt-4 text-gray-500">
+                <p className="relative mt-4 text-lg text-gray-500">
                   <span className="text-xl">&ldquo;</span>
                   The Sabaot communities, since the 1962 regional boundary have
                   wanted the Sabaot people in Bungoma to be joined to those in
@@ -65,7 +65,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[670px]">
+              <blockquote className="bg-gray-100 p-8 h-[770px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -73,12 +73,12 @@ const Testimonials = () => {
                   />
 
                   <div className="ml-4 text-sm">
-                    <p className="font-medium">Access to education</p>
-                    <p className="mt-1">Education for all</p>
+                    <p className="font-bold text-xl">Access to education</p>
+                    <p className="mt-1 text-xl">Education for all</p>
                   </div>
                 </div>
 
-                <p className="relative mt-4 text-gray-500">
+                <p className="relative text-xl mt-4 text-gray-500">
                   <span className="text-xl">&ldquo;</span>
                   Education is a big equalizer and yet the area experience high
                   levels of dropouts from primary to secondary; still others in
@@ -95,7 +95,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[670px]">
+              <blockquote className="bg-gray-100 p-8 h-[770px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -103,12 +103,12 @@ const Testimonials = () => {
                   />
 
                   <div className="ml-4 text-sm">
-                    <p className="font-medium">Peace building</p>
-                    <p className="mt-1">Peace for all</p>
+                    <p className="font-bold text-xl">Peace building</p>
+                    <p className="mt-1 text-xl">Peace for all</p>
                   </div>
                 </div>
 
-                <p className="relative mt-4 text-gray-500">
+                <p className="relative mt-4 text-xl text-gray-500">
                   <span className="text-xl">&ldquo;</span>
                   The Trans-Elgon communities have suffered both inter-ethnic
                   and intra-ethnic conflict. Interethnic conflict has pitted the
@@ -125,7 +125,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[670px]">
+              <blockquote className="bg-gray-100 p-8 h-[770px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -133,12 +133,12 @@ const Testimonials = () => {
                   />
 
                   <div className="ml-4 text-sm">
-                    <p className="font-medium">Poverty alleviation</p>
-                    <p className="mt-1">Levelling for all</p>
+                    <p className="font-bold text-xl">Poverty alleviation</p>
+                    <p className="mt-1 text-xl">Levelling for all</p>
                   </div>
                 </div>
 
-                <p className="relative mt-4 text-gray-500">
+                <p className="relative mt-4 text-xl text-gray-500">
                   <span className="text-xl">&ldquo;</span>
                   The poverty levels among these communities is quite high due
                   to poor infrastructure such as piped water, impassible road
@@ -156,7 +156,7 @@ const Testimonials = () => {
             </div>
 
             <div className="swiper-slide">
-              <blockquote className="bg-gray-100 p-8 h-[670px]">
+              <blockquote className="bg-gray-100 p-8 h-[860px]">
                 <div className="flex items-center">
                   <BiGitCommit
                     size={30}
@@ -164,12 +164,14 @@ const Testimonials = () => {
                   />
 
                   <div className="ml-4 text-sm">
-                    <p className="font-medium">Environmental conservation</p>
-                    <p className="mt-1">Greener for all</p>
+                    <p className="font-bold text-xl">
+                      Environmental conservation
+                    </p>
+                    <p className="mt-1 text-xl">Greener for all</p>
                   </div>
                 </div>
 
-                <p className="relative mt-4 text-gray-500">
+                <p className="relative mt-4 text-xl text-gray-500">
                   <span className="text-xl">&ldquo;</span>
                   The communities occupy Mt Elgon and Cherangany hills that are
                   important water towers as they are sources of many rivers in

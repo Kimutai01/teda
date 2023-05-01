@@ -5,7 +5,7 @@ import Testimonials from "@/components/Testimonials";
 const about = () => {
   return (
     <div>
-      <Hero heading={"About"} />
+      <Hero heading={"About"} image="about-img" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 text-center">
         <div>

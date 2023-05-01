@@ -11,6 +11,14 @@ html {
   background-image: url("https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
 }
 
+.contact-img {
+  background-image: url("https://res.cloudinary.com/dapnnry4b/image/upload/v1682966396/contact_qv73dj.jpg");
+}
+
+.about-img {
+  background-image: url("https://res.cloudinary.com/dapnnry4b/image/upload/v1682966395/about_i4cav8.jpg");
+}
+
 .heading {
   font-size: 14px;
   letter-spacing: 1px;
