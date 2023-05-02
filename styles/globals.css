@@ -31,3 +31,13 @@ html {
   padding: 2px 15px;
   border-radius: 50px 0 50px 0;
 }
+
+.slider-image {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider-content {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}

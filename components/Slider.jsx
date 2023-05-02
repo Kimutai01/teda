@@ -35,6 +35,13 @@ const Slider = ({ slides }) => {
       <div className="relative flex justify-center">
         {slides.map((slide, index) => {
           return (
+            <div key={index}>
+              <img src={slide.image} alt="/" className="hidden" />
+            </div>
+          );
+        })}
+        {slides.map((slide, index) => {
+          return (
             <div
               key={index}
               className={
@@ -64,8 +71,11 @@ const Slider = ({ slides }) => {
                   alt="/"
                   width="1440"
                   height="600"
-                  style={{ objectFit: "cover" }}
-                  className="h-[700px]"
+                  style={{
+                    objectFit: "cover",
+                    opacity: index === current ? 1 : 0,
+                  }}
+                  className="slider-image h-[700px]"
                 />
               )}
               <FaArrowCircleRight
